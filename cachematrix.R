@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The whole program contains two functions for caching the inverse matrix
+## of a input matrix. The first function makeCacheMatrix() creats a list
+## of objects that can be accessed by another function(). makeCacheMatrix() is
+## also used for storing/caching the calculated inverse matrix. 
 
-## Write a short comment describing this function
+
 ## The makeCacheMatrix()  creats a list of objects. Four fucntions included
 ## It  stores the input matrix itself and cache the inverse matrix
 
@@ -31,7 +33,6 @@ makeCacheMatrix <- function(x = matrix()) { ##input an inversible matrix
 }
 
 
-## Write a short comment describing this function
 ##cacheSolve() does several things when called
 ##It first gets the value of "inversem" from makeCacheMatrix() by calling 
 ##getinverse()
