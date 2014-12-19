@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) { ##input an inversible matrix
     inversem <- NULL ## set inversem (the one caching the inverse matrix)to null
     
     set <- function(y) { #This set function replace the previous input matrix
-      x <<- y
+      x <<- ynop
       inversem <<- NULL
     }
     
